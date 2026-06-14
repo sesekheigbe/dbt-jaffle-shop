@@ -216,3 +216,19 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# dbt artifacts
+dbt_packages/
+logs/
+target/
+
+# Google Cloud service account keys
+*-key.json
+service-account*.json
+
+# Local secrets
+secrets/
+credentials/
+
+# Mac OS
+.DS_Store
